@@ -1,0 +1,63 @@
+What is Keras?
+Keras is a high-level neural networks API, written in Python. It runs on top of TensorFlow (default backend), and allows you to easily build and train deep learning models.
+
+-> Originally standalone, now it's officially part of TensorFlow as tf.keras.
+-> Great for rapid prototyping, ease of use, and modularity.
+
+What happens when you run pip install keras?
+
+pip connects to PyPI (Python Package Index).It downloads the latest version of the standalone Keras package.
+
+Installs Keras along with its dependencies:
+
+-> numpy
+-> scipy
+-> pillow
+-> h5py
+-> pandas
+And most importantly: tensorflow (if not already installed).
+
+What is SciKeras?
+SciKeras bridges Keras (via TensorFlow) with scikit-learn, so you can use deep learning models just like any other scikit-learn estimator in pipelines, grid searches, and cross-validation.
+
+-> It solves the gap between: Deep learning (Keras) and Traditional ML workflows (scikit-learn)
+
+Why use SciKeras?
+It allows you to:
+
+-> Use KerasClassifier and KerasRegressor with GridSearchCV or Pipeline.
+-> Tune hyperparameters of neural networks using sklearn.model_selection.
+-> Seamlessly integrate neural networks into traditional ML pipelines.
+
+TensorFlow is an open-source deep learning framework developed by Google. It allows you to build and train:
+
+Neural networks (CNNs, RNNs, Transformers, etc.)
+ML pipelines (with data processing, modeling, and deployment)
+
+It includes:
+
+tf.keras – Keras integrated as TensorFlow's official high-level API
+Tools for deployment – e.g., TensorFlow Lite, TensorFlow Serving
+TensorBoard – visualization for training metrics
+Support for automatic differentiation, gradient descent, etc.
+
+It installs:
+
+The main TensorFlow package
+Dependencies like:
+numpy, protobuf, keras, grpcio, absl-py.
+
+What is feature_engine?
+feature_engine Python library, which is designed for feature engineering in machine learning pipelines, especially those built with scikit-learn.
+feature_engine is a powerful library for data preprocessing and feature engineering. It provides modular, scikit-learn-compatible transformers for:
+
+-> Handling missing data
+-> Encoding categorical variables
+-> Scaling numerical features
+-> Detecting and treating outliers
+-> Discretizing/transforming variables
+-> Creating interaction features
+-> Removing multicollinearity
+
+
+
